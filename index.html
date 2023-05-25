@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Matematik</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="kalkulator-body">
+    <h1>
+      <span>Katik</span> <small>Kalkulator Matematik</small>
+    </h1>      
+    <h2 class="text-deskripsi"> Welcome to Katik</h2>
+    <p class="text-deskripsi">Hai Sobat, Selamat datang di katik :]<br>
+      Sebuah web sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+    </p>
+
+    <!-- Menghitung luas persegi -->
+    <section id="luas-persegi" class="areahitung">
+      <h2 class="subjudul">Luas Persegi</h2>
+      <img class="gambar-persegi" src="https://superapp.id/blog/wp-content/uploads/2022/04/Sumbernesia-1.png" alt="gambar persegi">
+      <p class="rumus">Rumus Luas Persegi yaitu:<br>
+        L = S x S<br>
+        Dimana:<br>
+        L = Luas<br>
+        S = Sisi<br>
+      </p>
+      <hr>
+      <form>
+      <h3>Hitung Luas Persegi</h3>
+      <input type="number" name="sisi-luas" id="sisi-luas" class="input-sisi" placeholder="Nilai Sisi" required>
+      <input type="button" id="hitung-luas" value="Hitung">
+      <p id="output_luas" class="output-hitung"></p>
+      <p id="error-message-luas" class="error-message"></p>
+      <button class="tombolreset" id="tombol-reset-luas">Reset</button>
+      </form>
+    </section>
+    <hr>
+
+    <!-- Menghitung keliling persegi -->
+    <section class="areahitung">
+      <h2 class="subjudul">Keliling Persegi</h2>
+      <img class="gambar-persegi" src="https://superapp.id/blog/wp-content/uploads/2022/04/Sumbernesia-1.png" alt="gambar persegi">
+      <p class="rumus">Rumus Keliling Persegi yaitu:<br>
+        K = 4 x S<br>
+        Dimana:<br>
+        K = Keliling<br>
+        S = Sisi<br>
+      </p>
+      <hr>
+    <form>
+      <h3>Hitung Keliling Persegi</h3>
+      <input type="number" class="input-sisi" name="sisi-keliling" id="sisi-keliling" placeholder="Nilai Sisi" required>
+      <input type="button" id="hitung-keliling" value="Hitung">
+      <p id="output_keliling" class="output-hitung"></p>
+      <p id="error-message-keliling" class="error-message"></p>
+      <button class="tombolreset" id="tombol-reset-keliling">Reset</button>
+    </form>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

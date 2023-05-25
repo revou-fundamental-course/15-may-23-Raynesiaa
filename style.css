@@ -1,0 +1,133 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJuXUhL1BlS_sWjoiBb4qTbXZvT9d1EkpQg&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+      max-width: 768px;
+      margin: 0 auto;
+      padding: 20px;
+}
+
+/*Header*/
+h1 {
+    font-size: 32px; 
+    background-color: #a1d0ff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 span {
+    color: white; 
+  }
+  
+  h1 small {
+    font-size: 20px;
+    color: rgb(82, 82, 99); 
+  }
+
+h2{
+    text-align: center;
+    margin-top: 0%;
+    padding: 20px;
+    color:white;
+  }
+h3{text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.text-deskripsi{ text-align: center;
+color: black;
+padding: 0;
+}
+
+.kalkulator-body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.subjudul{background-color: #a1d0ff;
+}
+
+
+/*Style Kotak Area Hitung*/
+.areahitung{
+   padding-bottom: 20px;
+    padding-inline: 0; 
+    margin: 20px;
+    border: 2px solid lightskyblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    color:#282828;
+  }
+
+.gambar-persegi{
+  max-width: 30%;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+}
+
+.rumus{
+  padding: 20px;
+}
+
+.input-sisi{
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+/*style button*/
+.tombolreset {
+  background-color: #c13232;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+  display: block;
+}
+
+ #hitung-keliling,#hitung-luas{
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+/*style output*/
+.error-message {
+  color: #c13232;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: monospace;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; 
+}
+
+.output-hitung{
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: monospace;
+  padding-left: 20px;
+}
